@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thepowerofscience.sscexam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ssc1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ssc1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LUCENT" />
+        <activity android:name=".English" />
+        <activity android:name=".thirdAcivity" />
+        <activity android:name=".secondActivity" />
+        <activity android:name=".forthActivity" />
+        <activity android:name=".fifthActivity" />
+        <activity android:name=".imp_gk" />
+        <activity android:name=".imp_eng" />
+        <activity android:name=".imp_gk1" />
+        <activity android:name=".imp_gk2" />
+        <activity android:name=".imp_gk3" />
+        <activity android:name=".imp_gk4" />
+        <activity android:name=".imp_gk5" />
+        <activity android:name=".imp_gk6" />
+        <activity android:name=".imp_gk7" />
+        <activity android:name=".imp_gk8" />
+        <activity android:name=".imp_gk9" />
+        <activity android:name=".imp_gk10" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".imp_gk11" />
+        <activity android:name=".imp_eng1" />
+        <activity android:name=".imp_eng2" />
+        <activity android:name=".imp_eng3" />
+        <activity android:name=".imp_eng4" />
+        <activity android:name=".imp_eng5" />
+        <activity android:name=".imp_eng6" />
+        <activity android:name=".imp_eng7" />
+        <activity android:name=".imp_eng8" />
+        <activity android:name=".imp_eng9" />
+        <activity android:name=".imp_eng10" />
+        <activity android:name=".imp_eng11" />
+        <activity android:name=".imp_eng12" />
+        <activity android:name=".imp_eng13" />
+        <activity android:name=".imp_eng14" />
+        <activity android:name=".imp_eng15" />
+        <activity android:name=".imp_eng16" />
+        <activity android:name=".imp_eng17" />
+        <activity android:name=".imp_eng18" />
+        <activity android:name=".imp_eng19" />
+        <activity android:name=".imp_eng20" />
+        <activity android:name=".imp_eng21" />
+        <activity android:name=".imp_eng22" />
+        <activity android:name=".lucent1" />
+        <activity android:name=".lucent2" />
+        <activity android:name=".lucent3" />
+        <activity android:name=".lucent4" />
+        <activity android:name=".lucent5" />
+        <activity android:name=".lucent6" />
+        <activity android:name=".lucent7" />
+        <activity android:name=".lucent8" />
+        <activity android:name=".lucent9" />
+        <activity android:name=".lucent10" />
+        <activity android:name=".lucent11" />
+        <activity android:name=".english1" />
+        <activity android:name=".english2" />
+        <activity android:name=".english3" />
+        <activity android:name=".english4" />
+        <activity android:name=".english5" />
+        <activity android:name=".english6" />
+        <activity android:name=".english7" />
+        <activity android:name=".english8" />
+        <activity android:name=".english9" />
+        <activity android:name=".english10" />
+        <activity android:name=".english11" />
+        <activity android:name=".english12" />
+        <activity android:name=".english13" />
+        <activity android:name=".english14" />
+        <activity android:name=".english15" />
+        <activity android:name=".english16" />
+        <activity android:name=".english17" />
+        <activity android:name=".english18" />
+        <activity android:name=".english19" />
+        <activity android:name=".english20" />
+        <activity android:name=".english21" />
+        <activity android:name=".english22" />
+        <activity android:name=".fb_page" />
+        <activity android:name=".onlineForm"></activity>
+    </application>
+
+</manifest>

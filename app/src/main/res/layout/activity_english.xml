@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        app:titleTextColor="#ffffff"
+        app:subtitleTextColor="#ffffff"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#457659"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text=" VERB(BASIC) "
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="TENSE"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="PASSIVE VOICE"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="NARRATION"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="QUESTION TAG"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="SUBJECT VERB AGREEMENT"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="CONDITIONAN SENTENCE"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="VERB(ADVANCE)"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="NOUN"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text=" PRONOUN"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button11"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="ADJECTIVE"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text=" CONJUNCTION "
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button13"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="ARTICLE"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text=" PREPOSITION"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button15"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="ADVERB"
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text=" WORDS OFTEN CONFUSED AND MISUSED  "
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button17"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="VOCABULARIES "
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="SYNONYMS"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="ANTONYMS  "
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="ONE WORD SUBTITUTION"
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="IDIOMS AND PHRASES_1 "
+                android:textColor="#457659"
+                android:textSize="35dp" />
+
+           <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#457659"
+                android:text="IDIOMS AND PHRASES_2  "
+                android:textColor="#ffffff"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LUCENT">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        app:titleTextColor="#ffffff"
+        app:subtitleTextColor="#ffffff"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#457659"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#457659"
+        android:text=" HISTORY "
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/button2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#457659"
+        android:textColor="#ffffff"
+        android:text="GEOGRAPHY"
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#457659"
+        android:text="INDIAN ECONOMY"
+        android:textSize="35dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#457659"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:text="INDIAN CONSTITUTION " />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textSize="35dp"
+        android:textColor="#457659"
+        android:text="PHYSICS" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#457659"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:text="CHEMISTRY" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#457659"
+        android:textSize="35dp"
+        android:text="BIOLOGY" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#457659"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:text="SCIENCE AND TECHNOLOGY" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#457659"
+        android:textSize="35dp"
+        android:text="MISCELLANEOUS" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#457659"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:text=" SPORTS" />
+    <Button
+        android:id="@+id/button11"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#457659"
+        android:textSize="35dp"
+        android:text="COMPUTER" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
